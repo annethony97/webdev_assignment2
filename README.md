@@ -33,4 +33,4 @@ Include 3 or more CSS style rules with **three different types of selectors** wi
 
 ## Requirement 4 (Submission)
 
-Your project folder will need to be submitted to the assigned GitHub repository provided to you by the instructor. In Sakai, you will need to submit the link to your repository by the due date and time listed in the write-up. Make sure you receive confirmation from Sakai that your assignment has been submitted.
+Your project folder will need to be submitted to the assigned GitHub repository provided to you by the instructor. In BrightSpace, you will need to submit the link to your repository by the due date and time listed in the write-up. Make sure you receive confirmation from BrightSpace that your assignment has been submitted.
