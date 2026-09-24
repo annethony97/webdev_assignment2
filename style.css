@@ -1,5 +1,131 @@
+/* CSS for requirements.html */
 .sitemap {
     width: 600px;
     border: 3px solid;
     border-color: black;
+}
+
+.mobile {
+    width: 600px;
+    border: 3px solid;
+    border-color: black;
+}
+
+.desktop {
+    width: 600px;
+    border: 3px solid;
+    border-color: black;
+}
+
+/* CSS for Requirement 4 - Website CSS */
+
+body {
+    background-color: #E8E3FF;
+    font-family: "IBM Plex Mono", serif;
+    margin: 50px;
+}
+
+p {
+    font-size: 12px;
+}
+
+h1, h2, h3 {
+    color: #342F3F;
+}
+
+h3 {
+    text-align: center;
+}
+
+.p-container {
+    background-color: #b8acee;
+    padding: 20px 30px 20px 30px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/* R3: CSS Practice on May photo. Need to figure out how to fix the right and bottom border. */
+.may-container {
+  position: relative;
+  width: 400px; 
+  height: 300px;
+  overflow: hidden
+}
+
+.may-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 4px solid;
+  border-color: black
+}
+
+.purple-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 99%;
+  height: 99%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  background-color: #b8acee;
+  opacity: 0;
+}
+
+.may-container:hover .purple-box {
+    opacity: 60%;
+    transition: opacity 0.3s ease;
+}
+
+/* IBM Plex Mono Font Family */
+.ibm-plex-mono-regular {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-plex-mono-medium {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ibm-plex-mono-semibold {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.ibm-plex-mono-bold {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ibm-plex-mono-regular-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ibm-plex-mono-medium-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ibm-plex-mono-semibold-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.ibm-plex-mono-bold-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
 }
